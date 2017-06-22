@@ -1,1 +1,5 @@
-g++ -g -o main main.cpp --std=c++14
+#! /bin/bash -
+
+g++ -o bin/integration/main src/integration/lib/test/main.cpp -I src/integration/include/main --std=c++14
+
+exit $?

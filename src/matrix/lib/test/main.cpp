@@ -1,6 +1,6 @@
 #include <cstdlib>
 #include <iostream>
-#include "Matrix.h"
+#include "matrix.h"
 
 int main(int argc, char *argv[])
 {
